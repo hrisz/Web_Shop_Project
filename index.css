@@ -1,3 +1,9 @@
+nav{
+    background-color: antiquewhite;
+}
+
+
+
 a.navbar-brand {
     color: white;
 }
@@ -7,5 +13,11 @@ img.navbar-brand {
 }
 
 a.nav-link {
+    color: white;
+    
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: var(--bs-navbar-nav-link-padding-x);
+    padding-left: var(--bs-navbar-nav-link-padding-x);
     color: white;
 }
