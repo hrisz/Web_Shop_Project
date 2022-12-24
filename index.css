@@ -1,0 +1,11 @@
+a.navbar-brand {
+    color: white;
+}
+
+img.navbar-brand {
+    width: 120px;
+}
+
+a.nav-link {
+    color: white;
+}
