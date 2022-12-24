@@ -1,8 +1,11 @@
-nav{
-    background-color: antiquewhite;
+/* Navbar Style */
+
+nav.navbar.navbar-expand-lg {
+	position: sticky;
+	position: -webkit -sticky;
+	top: 0;
+	z-index: 1;
 }
-
-
 
 a.navbar-brand {
     color: white;
@@ -14,10 +17,49 @@ img.navbar-brand {
 
 a.nav-link {
     color: white;
-    
+
 }
+
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: var(--bs-navbar-nav-link-padding-x);
     padding-left: var(--bs-navbar-nav-link-padding-x);
     color: white;
+}
+
+button.btn-outline-success {
+    --bs-btn-color: #b47e01;
+    --bs-btn-border-color: #b47e01;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #b47e01;
+    --bs-btn-hover-border-color: #b47e01;
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #b47e01;
+    --bs-btn-active-border-color: #b47e01;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #b47e01;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #b47e01;
+    --bs-gradient: none;
+}
+
+/* Background Style */
+.bgimg {
+    background-image: url(https://wallpaperaccess.com/full/3499511.png);
+    min-height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*parallax*/
+    background-attachment: fixed;
+}
+
+/* Promotion menu */
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1600px;
+    margin: 0 auto;
 }
