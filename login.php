@@ -7,6 +7,7 @@
   <title>Login</title>
   <link rel="stylesheet" href="login.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="shortcut icon" href="https://i.ibb.co/VtsdG0x/20221224-123556.png" type="image/x-icon">
 </head>
 
 <body>
@@ -14,7 +15,7 @@
     <div class="wrapper">
       <br><br>
       <center>
-        <h1>Sign Up</h1>
+        <h1 class="logtitle">Sign Up</h1>
       </center>
       <br>
       <div class="row g-3">
