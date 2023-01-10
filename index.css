@@ -104,3 +104,10 @@ h1.expiredoffer {
     /* paralax */
     background-attachment: fixed;
 }
+
+span {
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+
+}
