@@ -48,7 +48,7 @@ button.btn-outline-success {
 /* Background Style */
 
 .bgimg {
-    background-image: url(https://img5.goodfon.com/wallpaper/nbig/b/c0/ploskii-krugi-temnyi-fon-shtrikhovka-goluboi-aktsent.jpg);
+    background-image: url(https://i.pinimg.com/originals/df/a7/29/dfa72927dc7f87e10cf5d960f3650050.jpg);
     min-height: 800px;
     background-position: center;
     background-repeat: no-repeat;
@@ -69,7 +69,6 @@ button.btn-outline-success {
 
 h1.bestoffer-title {
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     font-size: 3vw;
     text-align: center;
@@ -83,7 +82,6 @@ h1.expiredoffer {
     display: flex;
     align-items: right;
     text-align: right;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     font-size: 1.3vw;
     position: relative;
@@ -95,7 +93,7 @@ h1.expiredoffer {
 }
 
 .bgimg2 {
-    background-image: url(https://st2.depositphotos.com/4497889/43397/i/600/depositphotos_433974418-stock-photo-white-texture-with-brush-and.jpg);
+    background-image: url(https://i.pinimg.com/originals/b8/dd/fb/b8ddfbb198825156089392b60b25b1ab.jpg);
     min-height: 800px;
     background-position: center;
     background-repeat: no-repeat;
@@ -105,9 +103,10 @@ h1.expiredoffer {
     background-attachment: fixed;
 }
 
-span {
-    text-align: center;
-    display: flex;
-    margin: 0 auto;
+.me-5.d-none.d-lg-block {
+    color: white;
+}
 
+.row.mt-3{
+    color: white;
 }
