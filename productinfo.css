@@ -44,13 +44,17 @@ button.btn-outline-success {
 
 .bgimg {
     background-image: url(https://i.pinimg.com/originals/df/a7/29/dfa72927dc7f87e10cf5d960f3650050.jpg);
-    min-height: 800px;
+    min-height: 810px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
     /* paralax */
     background-attachment: fixed;
+}
+
+.container {
+    display: flex;
 }
 
 .wrapper {
@@ -60,48 +64,7 @@ button.btn-outline-success {
     margin: 0 auto;
 }
 
-/* Best Offer Style */
-
-h1.bestoffer-title {
+h3.usertitle {
+    color: white;
     text-align: center;
-    color: white;
-    font-size: 3vw;
-    text-align: center;
-    background-color: rgb(35, 35, 35);
-    background-repeat: no-repeat;
-    background-size: 1550px;
-    padding: 10px 5px 10px 5px;
-}
-
-h1.expiredoffer {
-    display: flex;
-    align-items: right;
-    text-align: right;
-    color: white;
-    font-size: 1.3vw;
-    position: relative;
-    bottom: 50px;
-}
-
-.container {
-    display: flex;
-}
-
-.bgimg2 {
-    background-image: url(https://i.pinimg.com/originals/b8/dd/fb/b8ddfbb198825156089392b60b25b1ab.jpg);
-    min-height: 800px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    /* paralax */
-    background-attachment: fixed;
-}
-
-.me-5.d-none.d-lg-block {
-    color: white;
-}
-
-.row.mt-3{
-    color: white;
 }

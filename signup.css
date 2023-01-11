@@ -1,0 +1,29 @@
+h1.titlelog {
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    background-color: #386bc0;
+    margin-right: 450px;
+    margin-left: 450px;
+    border-radius: 20px;
+	padding: 10px 15px 10px 15px;
+    
+}
+
+.wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.loginbg {
+        background-image: url(https://static.vecteezy.com/system/resources/previews/007/677/104/original/white-background-with-blue-geometric-and-white-line-pattern-free-vector.jpg);
+        min-height: 900px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        /* paralax */
+        background-attachment: fixed;
+}
