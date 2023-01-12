@@ -57,14 +57,15 @@
             <p class="text-center">or:</p>
 
             <!-- Email input -->
+            <fieldset>
             <div class="form-outline mb-4">
-              <input type="email" id="loginName" class="form-control" />
-              <label class="form-label" for="loginName">Username</label>
+              <input type="email" name="emails" class="form-control" />
+              <label class="form-label" for="loginName">Email</label>
             </div>
 
             <!-- Password input -->
             <div class="form-outline mb-4">
-              <input type="password" id="loginPassword" class="form-control" />
+              <input type="password" name="passwords" class="form-control" />
               <label class="form-label" for="loginPassword">Password</label>
             </div>
 
@@ -85,24 +86,7 @@
             </div>
 
             <!-- Submit button -->
-            <input type="hidden" name="insert">
-            <button type="submit" name="login" class="btn btn-primary btn-block mb-4">Sign in</button>
-
-            <!-- Login session -->
-
-            <?php
-            session_start();
-
-            if (isset($_POST["insert"])) {
-              if (($_POST["user"] != "") && ($_POST["password"] != "")) {
-                $_SESSION["session_status"] = ["login"];
-                $_SESSION["session_user"] = $_POST["user"];
-                $_SESSION["session_password"] = $_POST["password"];
-                header("Location: proses_login.php");
-                exit;
-              }
-            }
-            ?>
+            <button type="submit" href="successlog.php" signin" class="btn btn-primary btn-block mb-4">Sign in</button>
 
             <!-- Register buttons -->
             <div class="text-center">
@@ -134,7 +118,7 @@
             <p class="text-center">or:</p>
 
             <!-- Name input -->
-            <fieldset>
+
               <div class="form-outline mb-4">
                 <input type="text" name="nama" id="registerName" class="form-control" />
                 <label class="form-label" for="registerName">Name</label>
@@ -186,7 +170,7 @@
       © 2023 Copyright:
       <a class="text-reset fw-bold" href="#">Ventura Project</a>
     </div>
-  </footer>
+  </footer> 
 </body>
 
 </html>

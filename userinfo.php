@@ -70,6 +70,7 @@
               <th>Username &nbsp; &nbsp;</th>
               <th>Email &nbsp;&nbsp; </th>
               <th>Password &nbsp; &nbsp;</th>
+              <th>Delete &nbsp; &nbsp;</th>
             </tr>
           </thead>
           <tbody>
@@ -83,10 +84,11 @@
 
             while ($user = mysqli_fetch_array($query)) {
               echo "<tr>";
-              echo "<td>" . "&nbsp;" . $user['nama'] . "&nbsp;" . "</td>";
-              echo "<td>" . "&nbsp;" . $user['username'] . "&nbsp;" . "</td>";
-              echo "<td>" . "&nbsp;" . $user['email'] . "&nbsp;" . "</td>";
-              echo "<td>" . "&nbsp;" . $user['password'] . "&nbsp;" . "</td>";
+              echo "<td>" . "&nbsp;" . $user['nama'] . "&nbsp;"."</td>";
+              echo "<td>" . "&nbsp;" . $user['username'] . "&nbsp;" ."</td>";
+              echo "<td>" . "&nbsp;" . $user['email'] . "&nbsp;" ."</td>";
+              echo "<td>" . "&nbsp;" . $user['password'] . "&nbsp;" ."</td>";
+              echo "<td>" . "&nbsp;" . "<a href='delete_data.php?delete_id=".$user['nama']."'>Delete</a></td>";
               echo "</tr>";
             }
             ?>
@@ -95,7 +97,8 @@
       </center>
     </div>
     <p class="userdesc">All user data was imported from data_user table in venturaproject database <br> User password are encrypted by Bcrypt</p>
-  </div>
+    <br>
+   
   <!-- Footer -->
   <footer class="text-center text-lg-start bg-dark text-muted">
     <!-- Section: Social media -->
